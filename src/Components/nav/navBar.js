@@ -12,7 +12,7 @@ function NavBar () {
 
         <ul className='list-container'>
         <li><a href='#'>
-            Vinos 
+            Vinos  
             </a>
         </li>
         <li><a href='#'>
