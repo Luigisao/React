@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.aviso-container {
+    background-color: black;
+    color: white;
+}
