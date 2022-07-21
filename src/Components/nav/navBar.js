@@ -1,6 +1,10 @@
 import Luigibosca from '../img/LuigiBosca.png'
 import Busqueda from '../img/busqueda.png'
+import Login from '../img/log.png'
+import Carrito from '../img/carrito.png'
 import '../nav/navBar.css'
+import CartWidghet from '../cart/CartWidget'
+import ItemListContainer from '../itemListConteiner/ItemListContainer'
 
 
 function NavBar () {
@@ -23,7 +27,7 @@ function NavBar () {
             Contacto
             </a>
         </li>
-        <li><a href='#'>
+        <li><a href='#' className='dorado'>
             Exclusivo Online
             </a>
         </li>
@@ -35,7 +39,11 @@ function NavBar () {
             <input 
                 className='input-container' 
                 type="search"
-                placeholder={'¿Que estas buscando?'} />
+                placeholder={'¿Que estas buscando?'}
+            />
+
+            <img src={Login} className='login'/>
+            <CartWidghet></CartWidghet>
         </div>
     </div>
     )

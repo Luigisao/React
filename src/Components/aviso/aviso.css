@@ -6,4 +6,11 @@
 .aviso-container {
     background-color: black;
     color: white;
+    height: 27px;
+    text-align: center;
+}
+
+p{
+    position: relative;
+    top: 5px;
 }

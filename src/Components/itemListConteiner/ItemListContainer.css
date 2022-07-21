@@ -1,0 +1,16 @@
+.texto{
+    display: flex;
+    position: relative;
+    background-color: red;
+    font-size: 11px;
+    padding: 2px;
+    color:white;
+    width: 8px;
+    height: 8px;
+    align-items: center;
+    border-radius: 50px;
+    float: right;
+    left:-175px;
+    top:-49px;
+}
+
