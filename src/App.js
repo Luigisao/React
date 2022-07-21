@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <Aviso></Aviso>
       <NavBar></NavBar>
-      <ItemListContainer></ItemListContainer>
       <Conteiner>
       </Conteiner>
 

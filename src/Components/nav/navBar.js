@@ -44,6 +44,7 @@ function NavBar () {
 
             <img src={Login} className='login'/>
             <CartWidghet></CartWidghet>
+            <ItemListContainer></ItemListContainer>
         </div>
     </div>
     )
