@@ -22,8 +22,8 @@ const ItemCount = ( {initial, stock, onAdd} ) => {
     }
 
     const Add= ( onAdd ) => {
-        
-        console.log(`Felicitaciones, Compraste ${onAdd} unidades`)
+        if((onAdd <= 6) && (onAdd >= 1)){
+        console.log(`Felicitaciones, Compraste ${onAdd} unidades`)}
      }
     
 
