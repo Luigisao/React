@@ -8,7 +8,7 @@ function ItemListContainer( props ) {
        
 
 return(
-    <text className='texto'></text>
+    <text className='texto'>4{props.greeting}</text>
 )
 }
 
