@@ -1,7 +1,7 @@
 
 .card-container {
     width: 250px;
-    height: 400px;
+    height: 410px;
     background-color: whitesmoke;
     margin: 10px;
     transition: .5s;
@@ -33,22 +33,22 @@
 
 .card-precio {
     position: relative;
-
     font-size: 20px;
+    top: -2px;
 }
 
 .p-botella {
     position: relative;
     font-size: 11px;
     left: -30px;
-    top:10px;
+    top:6px;
 }
 
 .p-p-botella {
     position: relative;
     font-size: 15px;
     left: 40px;
-    bottom: 6px;
+    bottom: 8px;
 }
 
 .botonazo {

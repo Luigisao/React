@@ -1,0 +1,29 @@
+
+.add-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.Add-to-cart{
+    position: relative;
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: #c59d5d;
+}
+
+.remove-to-cart{
+    position: relative;
+    top: -5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #c59d5d
+}
+
+p {
+    position:relative;
+    top: -5px;
+}

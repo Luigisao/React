@@ -1,10 +1,9 @@
 import Luigibosca from '../img/LuigiBosca.png'
 import Busqueda from '../img/busqueda.png'
 import Login from '../img/log.png'
-import Carrito from '../img/carrito.png'
-import '../nav/navBar.css'
-import CartWidghet from '../cart/CartWidget'
-import ItemListContainer from '../itemListConteiner/ItemListContainer'
+import './navBar.css'
+import CartWidghet from '../CartWidget/CartWidget'
+import ItemListContainer from '../ItemListContainer/ItemListContainer'
 
 
 function NavBar () {

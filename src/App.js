@@ -1,9 +1,12 @@
 
 import './App.css';
-import Aviso from './Components/aviso/aviso'
-import Conteiner from './Components/contenedor/conteiner';
-import ItemListContainer from './Components/itemListConteiner/ItemListContainer';
-import NavBar from './Components/nav/navBar';
+import Aviso from './Components/Aviso/Aviso'
+import Conteiner from './Components/Conteiner/Conteiner';
+import NavBar from './Components/navBar/navBar';
+
+
+
+
 function App() {
   return (
     <div className="App">

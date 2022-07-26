@@ -1,10 +1,12 @@
-import '../cards/cards.css'
-
+import './Cards.css'
+import ItemCount from '../ItemCount/ItemCount';
 
 function Cards ( props ) {
+
+   
     return  (
         <div className='card-container'>
-        <img src={ require(`../img/${props.imagen}.png`)} className='img-card'/>
+        <img src={ require(`../img/${props.imagen}.png`)}className='img-card'/>
         <div className='parte-arriba'>
         <p className='card-p'> Luigi Bosca</p>
         <h2 className='titulo-vino'>{props.titulo}</h2>
@@ -14,7 +16,7 @@ function Cards ( props ) {
         <h3 className='p-botella'>Precio por botella</h3>
         <h3 className='p-p-botella'>{props.precioBotella}</h3>
         </div>
-        <button className='botonazo' type='submit'>Comprar</button>
+        <ItemCount initial={1} stock={6} ></ItemCount>
         </div>
         )
 }

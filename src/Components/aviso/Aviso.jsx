@@ -1,4 +1,4 @@
-import '../aviso/aviso.css'
+import './Aviso.css'
 
 function Aviso (){
     return(
