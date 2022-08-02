@@ -3,8 +3,7 @@ import './App.css';
 import Aviso from './Components/Aviso/Aviso'
 import NavBar from './Components/navBar/navBar';
 import Titulo from './Components/Titulo/Title';
-import ItemListContainer from './ItemListContainer/ItemListContainer';
-
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 
 function App() {
 

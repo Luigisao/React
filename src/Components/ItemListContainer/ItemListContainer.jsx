@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from "react"
-import ItemList from "../Components/ItemList/ItemList"
+import ItemList from "../ItemList/ItemList"
 
 const Vinos = [{
     id: 0,
