@@ -5,7 +5,9 @@
     background-color: whitesmoke;
     margin: 10px;
     transition: .5s;
-    text-align: center;}
+    text-align: center;
+    
+    }
 
 
 .card-container:hover{

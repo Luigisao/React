@@ -3,7 +3,9 @@ import Busqueda from '../img/busqueda.png'
 import Login from '../img/log.png'
 import './navBar.css'
 import CartWidghet from '../CartWidget/CartWidget'
-import ItemListContainer from '../ItemListContainer/ItemListContainer'
+import CartSuma from '../Cartsuma/Cartsuma'
+
+
 
 
 function NavBar () {
@@ -43,7 +45,6 @@ function NavBar () {
 
             <img src={Login} className='login'/>
             <CartWidghet></CartWidghet>
-            <ItemListContainer></ItemListContainer>
         </div>
     </div>
     )

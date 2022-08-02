@@ -1,21 +1,22 @@
 
 import './App.css';
 import Aviso from './Components/Aviso/Aviso'
-import Conteiner from './Components/Conteiner/Conteiner';
 import NavBar from './Components/navBar/navBar';
-
-
+import Titulo from './Components/Titulo/Title';
+import ItemListContainer from './ItemListContainer/ItemListContainer';
 
 
 function App() {
+
+
+
+
   return (
     <div className="App">
       <Aviso></Aviso>
       <NavBar></NavBar>
-      <Conteiner>
-      </Conteiner>
-
-
+      <Titulo></Titulo>
+    <ItemListContainer></ItemListContainer>
     </div>
   );
 }
