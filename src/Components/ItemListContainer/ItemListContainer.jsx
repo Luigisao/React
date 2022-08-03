@@ -49,7 +49,7 @@ const Vinos = [{
 
 
 
-const ItemListContainer = () =>{
+const ItemListContainer = ( {setVista} ) =>{
 
     const [data, setData]= useState([]);
 
@@ -66,7 +66,10 @@ const ItemListContainer = () =>{
         
     },[])
 
-    return(<ItemList data={data}/> )
+    return( <div className="contenedor">
+    <ItemList data={data} setVista={setVista}/> 
+    </div>
+       )
 
 
 

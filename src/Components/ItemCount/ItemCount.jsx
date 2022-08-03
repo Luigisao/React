@@ -1,7 +1,7 @@
 import './ItemCount.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
-const ItemCount = ( {initial, stock, onAdd} ) => {
+const ItemCount = ( {initial, stock , setVista , info } ) => {
 
 
     const [count, setCount] = useState(initial)
@@ -20,10 +20,7 @@ const ItemCount = ( {initial, stock, onAdd} ) => {
         }
     }
 
-    const Add= ( onAdd ) => {
-    
-        console.log(`Felicitaciones, Compraste ${onAdd} unidades`)
-     }
+
     
 
 
@@ -32,7 +29,6 @@ const ItemCount = ( {initial, stock, onAdd} ) => {
         <button onClick={remove} className='remove-to-cart'>-</button>
         <p className='stock'>{count}</p>
         <button  onClick={add} className='Add-to-cart'>+</button>
-        <button className='botonazo' onClick={()=>Add(count)}>Comprar</button>
         </div>
     )
 }
