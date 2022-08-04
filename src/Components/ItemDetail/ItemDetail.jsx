@@ -1,6 +1,4 @@
 import Item from "../Item/Item";
-import ItemDetailConteiner from "../ItemDetailConteiner/ItemDetailConteiner";
-import {useState , useEffect} from 'react'
 import './ItemDetail.css'
 
 
