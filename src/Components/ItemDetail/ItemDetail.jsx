@@ -16,7 +16,6 @@ return(
                <h4 className='desc'>{data.descripcion}</h4>
                <h4 className='change'>Precio Final ${data.precio}</h4>
                <h4 className='change'>Precio por Botella ${data.precioBotella}</h4>
-               <ItemCount></ItemCount>
             <button className='btn'>{data.comprar}</button>
             </div>
             </div>)
