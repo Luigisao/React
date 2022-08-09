@@ -3,7 +3,7 @@ import Busqueda from '../img/busqueda.png'
 import Login from '../img/log.png'
 import './navBar.css'
 import CartWidghet from '../CartWidget/CartWidget'
-import CartSuma from '../Cartsuma/Cartsuma'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -11,18 +11,15 @@ import CartSuma from '../Cartsuma/Cartsuma'
 function NavBar () {
     return (
     <div className="div-container">
-        <img 
+      <NavLink to={`/`}>  <img 
         className='imagen-icon'
-        src={Luigibosca} />
+        src={Luigibosca} /> </NavLink>
 
         <ul className='list-container'>
-        <li><a href='#'>
-            Vinos  
-            </a>
+        <li><NavLink to={`categoria/vinoespumante`} > Vino espumante </NavLink>
+            
         </li>
-        <li><a href='#'>
-            Colecciones
-            </a>
+        <li><NavLink to={`categoria/vinotinto`} > Vino Tinto </NavLink>
         </li>
         <li><a href='#'>
             Contacto

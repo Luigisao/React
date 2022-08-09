@@ -5,25 +5,49 @@ import NavBar from './Components/navBar/navBar';
 import Titulo from './Components/Titulo/Title';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import ItemDetailConteiner from './Components/ItemDetailConteiner/ItemDetailConteiner';
-import {useState} from 'react'
-import ItemCount from './Components/ItemCount/ItemCount';
+import { BrowserRouter ,Routes , Route } from 'react-router-dom';
+
 
 function App() {
 
-const [vista, setVista] = useState("lista")
-const detailId = vista.split("-")[1]
+
 
   return (
+    <BrowserRouter>
     <div className="App">
+
       <Aviso></Aviso>
       <NavBar></NavBar>
       <Titulo></Titulo>
-      
-    {vista === 'lista' &&  <ItemListContainer setVista={setVista}   />}
-    
-    {vista.includes("detalle")  && <ItemDetailConteiner detailId={detailId} />}
+      <Routes>
+    <Route path='/' element={<ItemListContainer/>}/>
+    <Route path='/categoria/:categoriaId' element={<ItemListContainer />}></Route>
+    <Route path='/detail/:detailId' element={<ItemDetailConteiner/>}/>
+
+
+
+      </Routes>
     </div>
+  </BrowserRouter>
   );
 }
 
 export default App;
+
+
+/*
+
+
+   <BrowserRouter>
+   <Navbar/>
+  <Routes>
+    <Route path='/' element={<ItemListContainer/>}/>
+    <Route path='/formato/:formatoId' element={<ItemListContainer/>}/>
+    <Route path='/detalle/:detalleId' element={<ItemDetailContainer/>}/>
+    <Route path='/cart' element={<Cart/>}/>
+  </Routes>
+  </BrowserRouter>
+
+
+
+*/

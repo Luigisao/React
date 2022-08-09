@@ -1,8 +1,9 @@
 import './Item.css'
 import ItemCount from '../ItemCount/ItemCount';
+import { Link } from 'react-router-dom';
 
 
-const Item  = ( {info, setVista,data} ) => {
+const Item  = ( {info} ) => {
 
 
 
@@ -22,7 +23,7 @@ const Item  = ( {info, setVista,data} ) => {
         <h3 className='p-botella'>precio por botella</h3>
         <h3 className='p-p-botella'>{info.precioBotella}</h3>
         <ItemCount initial={info.initial} stock={info.stock} > </ItemCount>
-        <button className='btnvista' data={data} onClick={()=> setVista("detalle-" + info.id)}>Add to cart</button> 
+        <Link to={`/detail/${info.id}`}> <button className="btnvista">Comprar</button></Link>
         </div>
         
         </div>
