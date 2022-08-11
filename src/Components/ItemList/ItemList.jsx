@@ -6,11 +6,11 @@ import './ItemList.css'
 
 
 
-const ItemList = ({data = [], setVista}, ) =>{
+const ItemList = ({data}, ) =>{
     return (
 
         <div className='div-container'>
-        {data.map(Vinos=><Item key={Vinos.id} info={Vinos} setVista={setVista}/>)}
+        {data.map(Vinos=><Item key={Vinos.id} info={Vinos} />)}
         </div>
     )
 }

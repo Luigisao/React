@@ -1,13 +1,17 @@
 
 .add-container{
+position: relative;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+top: 10px;
+
 }
 
 .Add-to-cart{
     position: relative;
     top: -5px;
+    left: 45px;
     width: 20px;
     height: 20px;
     background-color: #c59d5d;
@@ -16,6 +20,7 @@ justify-content: center;
 .remove-to-cart{
     position: relative;
     top: -5px;
+    left: 45px;
     margin-left: 2px;
     margin-right: 2px;
     width: 20px;
@@ -26,4 +31,16 @@ justify-content: center;
 p {
     position:relative;
     top: -5px;
+}
+
+
+#botou{
+    position: relative;
+    top: 35px;
+    right: 20px;
+}
+
+.stock{
+    position: relative;
+    left: 45px;
 }

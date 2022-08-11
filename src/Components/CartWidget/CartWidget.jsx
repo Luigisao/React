@@ -1,9 +1,13 @@
 import Cart from '../img/carrito.png'
 import './CartWidget.css'
+import {Link} from 'react-router-dom'
+
+
+
 
 function CartWidghet () {
     return(
-        <img src={Cart} className='carrito'/>
+        <Link to='/Cart'><img src={Cart} className='carrito'/></Link>
     )
 }
 
