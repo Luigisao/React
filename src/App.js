@@ -1,18 +1,20 @@
 
 import './App.css';
 import Aviso from './Components/Aviso/Aviso'
-import NavBar from './Components/navBar/navBar';
+import NavBar from './Components/NavBar/Navbar';
 import Titulo from './Components/Titulo/Title';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import ItemDetailConteiner from './Components/ItemDetailConteiner/ItemDetailConteiner';
 import { BrowserRouter ,Routes , Route } from 'react-router-dom';
 import Cart from './Components/cart/cart';
+import CartContextProvider from './Components/CartContext/CartContext';
 
 function App() {
 
 
 
   return (
+    <CartContextProvider>
     <BrowserRouter>
     <div className="App">
 
@@ -29,6 +31,7 @@ function App() {
       </Routes>
     </div>
   </BrowserRouter>
+  </CartContextProvider>
   );
 }
 

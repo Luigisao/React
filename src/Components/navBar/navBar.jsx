@@ -1,7 +1,7 @@
-import Luigibosca from '../img/LuigiBosca.png'
-import Busqueda from '../img/busqueda.png'
-import Login from '../img/log.png'
-import './navBar.css'
+import Luigibosca from '../Img/LuigiBosca.png'
+import Busqueda from '../Img/busqueda.png'
+import Login from '../Img/log.png'
+import '../NavBar/Navbar.css'
 import CartWidghet from '../CartWidget/CartWidget'
 import { NavLink } from 'react-router-dom'
 

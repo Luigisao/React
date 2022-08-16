@@ -22,7 +22,7 @@ const Item  = ( {info} ) => {
         <p className='card-precio'>{info.precio}</p>
         <h3 className='p-botella'>precio por botella</h3>
         <h3 className='p-p-botella'>{info.precioBotella}</h3>
-        <Link to={`/detail/${info.id}`}> <button className="btnvista">Comprar</button></Link>
+        <Link to={`/detail/${info.id}`}> <button className="btnvista">Buy It</button></Link>
         </div>
         
         </div>

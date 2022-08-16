@@ -58,11 +58,3 @@ cursor: pointer;
     font-size: 30px;
     border-bottom: 1px solid #c59d5d;
 }
-
-.btn{
-    background-color: #c59d5d;
-    color:beige;
-    height: 30px;
-    width: 80px;
-    cursor: pointer;
-}

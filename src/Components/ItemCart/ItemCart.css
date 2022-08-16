@@ -1,0 +1,95 @@
+.superContainer{
+    width: 600px; 
+    height: 350px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    transition: 0.35s;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: #c59d5d 0px 0px 10px 1px;
+
+}
+
+.itemCart img{
+    position: relative;
+    margin: auto;
+    height: 350px;
+    width: 250px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.carro{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.inside{
+    padding:5px;
+    font-size: 18px;
+    padding-bottom: 15px;
+    color:#c59d5d;
+}
+
+
+
+#tituloo{
+    color: #c59d5d;
+    font-size: 32px;
+}
+
+.superContainer:hover{
+    box-shadow:  0px 0px 10px 1px;
+    width:630px;
+}
+
+.superContainer:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.cerrar-compra{
+    position: fixed;
+    height: 100%;
+    top: 200px;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: block;
+    width:300px;
+    background-color: rgba(0, 0, 0, 0.9); 
+    top:7px;
+    right: 1px;
+    z-index: -1;
+}
+
+
+#hola{
+    position: relative;
+    top: 358px;
+    height: 35px;
+}
+
+.holaDonJose {
+    position: relative;
+    top: 230px;
+    width: 50%;
+    text-align: center;
+    height: 40px;
+    left: 80px;
+    color:#c59d5d ;
+    font-size: 25px;
+}
+
+#chau {
+    position: relative;
+    top: 450px;
+    height: 35px;
+    color:black;
+
+}
