@@ -28,7 +28,7 @@ function App() {
     <Route path='/cart' element={<Cart />}></Route>
 
 
-      </Routes>
+    </Routes>
     </div>
   </BrowserRouter>
   </CartContextProvider>
@@ -37,20 +37,3 @@ function App() {
 
 export default App;
 
-
-/*
-
-
-   <BrowserRouter>
-   <Navbar/>
-  <Routes>
-    <Route path='/' element={<ItemListContainer/>}/>
-    <Route path='/formato/:formatoId' element={<ItemListContainer/>}/>
-    <Route path='/detalle/:detalleId' element={<ItemDetailContainer/>}/>
-    <Route path='/cart' element={<Cart/>}/>
-  </Routes>
-  </BrowserRouter>
-
-
-
-*/
