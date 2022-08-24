@@ -20,8 +20,8 @@ const Cart = () => {
 
         return(
         <>
-           <h3 className="inside">No hay articulos Seleccionados </h3>
-           <Link to ='/'><h3 className="inside"> Volver a seleccion de Vinos </h3> </Link>
+           <h3 className="inside-2">No hay articulos Seleccionados </h3>
+           <Link to ='/'><h3 className="inside-2"> Volver a seleccion de Vinos </h3> </Link>
         </>
         );
     }

@@ -13,9 +13,9 @@ const CartContextProvider = ({children}) =>{
     const [cart, setCart] = useState([]);
 
     const addToCart= (data, newQuantity) => {
-    const newCart = cart.filter(producto => producto.id !== data.id);
-    newCart.push ({...data, quantity: newQuantity});
-    setCart(newCart)
+      const { quantity = 0 } = cart.find(prod => prod.id === data.id) || {};
+      const newCart = cart.filter(prod => prod.id !== data.id);
+      setCart([...newCart, {...data, quantity: quantity + newQuantity}])
    }
 
    const clear = () => setCart([]);
