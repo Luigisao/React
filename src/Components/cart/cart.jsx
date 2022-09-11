@@ -24,7 +24,8 @@ const Cart = () => {
 
     const handleClick = () => {
       const ordersCollection = collection(db, "orders");
-      addDoc(ordersCollection, order).then(({ id }) => alert("Su codigo de orden es :" +id));
+      addDoc(ordersCollection, order).then(({ id }) => alert("Su codigo de orden es :" +id) );
+      clear();
   }
 
    
